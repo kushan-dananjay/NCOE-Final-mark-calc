@@ -1,8 +1,6 @@
 x=int(input("Enter Internal Marks: "))
 y=int(input("Enter External Marks: "))
-if x>100 or y>100:
-	print("Invalid Value")
-elif x<0 or y<0:
+if (x>100 or y>100) or (x<0 or y<0):
 	print("Invalid Value")
 else:		
 	ass=x*60/100
@@ -19,4 +17,4 @@ else:
 		elif total>=50:
 			print("Your mark is "+str(total)+" You got PASS!")
 		else:
-			print("Your mark is "+str(total)+" You are FAIL!")		
+			print("Your mark is "+str(total)+" You are FAIL!")
