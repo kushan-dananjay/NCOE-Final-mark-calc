@@ -2,7 +2,7 @@ x=int(input("Enter Internal Marks: "))
 y=int(input("Enter External Marks: "))
 if x>100 or y>100:
 	print("Invalid Value")
-elif x<0 or elif y<0:
+elif x<0 or y<0:
 	print("Invalid Value")
 else:		
 	ass=x*60/100
